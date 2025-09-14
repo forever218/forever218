@@ -2,7 +2,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=forever218&color=blueviolet&style=flat-square)  
 
----
+
 
 ##  关于我
 - 一只想入非非的愤怒野猪
@@ -10,13 +10,17 @@
 - 对一切事物感兴趣，代码、哲学、艺术、体育、音乐......
 - 向往自由的世界
 
----
+## 联系我
+- 3316703158@qq.com
+- https://2am.top
+
+
 
 
 ## 座右铭
 > “人生而自由，却无往不在枷锁之中”
 
----
+
 
 ## 技能
 ~~面向AI的编程~~
@@ -24,7 +28,7 @@
   <img src="https://skillicons.dev/icons?i=python,php,js,html,css,git,linux,docker,vscode" />
 </p>
 
----
+
 
 ## GitHub Stats
 <p>
@@ -32,10 +36,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=forever218&layout=compact&theme=radical" height="180"/>
 </p>
 
----
+
 
 ## GitHub Trophies
 ![trophy](https://github-profile-trophy.vercel.app/?username=forever218&theme=radical&column=6)
 
----
+
 
