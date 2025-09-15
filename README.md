@@ -8,9 +8,11 @@
 
 
 
-## 贡献历程
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=forever218&bg_color=0d1117&color=58a6ff&line=79c0ff&point=ff6b6b&area=true&hide_border=true" alt="Contribution Graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/forever218/forever218/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/forever218/forever218/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/forever218/forever218/output/github-contribution-grid-snake.svg">
+</picture>
 </div>
 
 
