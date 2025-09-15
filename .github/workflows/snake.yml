@@ -2,15 +2,23 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天生成
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+    - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
     
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
       - name: Generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -21,10 +29,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: Push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push snake.svg to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          commit_message: Update snake animations
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
